@@ -1,0 +1,27 @@
+﻿Build started 29/8/2017 12:19:01 PM.
+     1>Project "C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\SimilarImageRetrieval\SimilarImageRetrieval.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include\opencv /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ImageProcessing.cpp Source.cpp
+         Source.cpp
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\source.cpp(105): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\source.cpp(107): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\source.cpp(108): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\source.cpp(138): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\source.cpp(140): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\source.cpp(141): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\source.cpp(155): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\source.cpp(172): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\source.cpp(174): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\source.cpp(175): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         ImageProcessing.cpp
+     1>c:\users\goh kien wei\documents\visual studio 2013\projects\similarimageretrieval\similarimageretrieval\imageprocessing.cpp(25): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\Debug\SimilarImageRetrieval.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\Debug\SimilarImageRetrieval.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\Debug\SimilarImageRetrieval.lib" /MACHINE:X86 Debug\ImageProcessing.obj
+         Debug\Source.obj
+         SimilarImageRetrieval.vcxproj -> C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\Debug\SimilarImageRetrieval.exe
+     1>Done Building Project "C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\SimilarImageRetrieval\SimilarImageRetrieval.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.93

@@ -1,0 +1,49 @@
+﻿Build started 11/9/2017 10:23:28 AM.
+     1>Project "C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\SimilarImageRetrieval\SimilarImageRetrieval.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include\opencv /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ImageProcessing.cpp Source.cpp
+         ImageProcessing.cpp
+     1>ImageProcessing.cpp(25): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>ImageProcessing.cpp(537): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(538): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(539): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(540): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(557): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(561): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(567): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(568): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(569): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(570): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(587): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(591): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(610): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(611): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>ImageProcessing.cpp(626): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+         Source.cpp
+     1>Source.cpp(129): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(130): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(133): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(141): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(153): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(154): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(156): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(178): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(207): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(220): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(227): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(258): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(259): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(276): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(302): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>Source.cpp(13): warning C4101: 'arrSize' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\Release\SimilarImageRetrieval.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\Release\SimilarImageRetrieval.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\Release\SimilarImageRetrieval.lib" /MACHINE:X86 /SAFESEH Release\ImageProcessing.obj
+         Release\Source.obj
+         Generating code
+         Finished generating code
+         SimilarImageRetrieval.vcxproj -> C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\Release\SimilarImageRetrieval.exe
+     1>Done Building Project "C:\Users\Goh Kien Wei\Documents\Visual Studio 2013\Projects\SimilarImageRetrieval\SimilarImageRetrieval\SimilarImageRetrieval.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.05
